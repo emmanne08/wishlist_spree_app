@@ -40,3 +40,7 @@ gem 'jquery-rails', '~> 2.0'
 gem 'spree', '2.0.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
+gem 'spree_wishlist', :path => '../spree_wishlist'
+gem 'spree_email_to_friend',
+  :git => 'https://github.com/spree/spree_email_to_friend.git',
+  :branch => '2-0-stable'
